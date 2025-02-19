@@ -47,7 +47,7 @@ const About = () => {
                             <img
                                 src="assets/img/profile-img.jpg"
                                 className="img-fluid"
-                                alt=""
+                                alt="amir-khan-profile"
                             />
                         </div>
                         <div className="col-lg-8 content">

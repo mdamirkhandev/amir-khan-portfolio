@@ -1,21 +1,27 @@
+import {
+    FaBootstrap,
+    FaCss3Alt,
+    FaHtml5,
+    FaJs,
+    FaLaravel,
+    FaNodeJs,
+    FaReact,
+    FaWordpress,
+} from "react-icons/fa";
+import { SiNextdotjs, SiPhp, SiTailwindcss } from "react-icons/si";
 const Features = () => {
     const features = [
-        { icon: "bi-eye", color: "#ffbb2c", title: "Lorem Ipsum" },
-        { icon: "bi-infinity", color: "#5578ff", title: "Dolor Sitema" },
-        { icon: "bi-mortarboard", color: "#e80368", title: "Sed perspiciatis" },
-        { icon: "bi-nut", color: "#e361ff", title: "Magni Dolores" },
-        { icon: "bi-shuffle", color: "#47aeff", title: "Nemo Enim" },
-        { icon: "bi-star", color: "#ffa76e", title: "Eiusmod Tempor" },
-        { icon: "bi-x-diamond", color: "#11dbcf", title: "Midela Teren" },
-        { icon: "bi-camera-video", color: "#4233ff", title: "Pira Neve" },
-        { icon: "bi-command", color: "#b2904f", title: "Dirada Pack" },
-        { icon: "bi-dribbble", color: "#b20969", title: "Moton Ideal" },
-        { icon: "bi-activity", color: "#ff5828", title: "Verdo Park" },
-        {
-            icon: "bi-brightness-high",
-            color: "#29cc61",
-            title: "Flavor Nivelanda",
-        },
+        { icon: <FaHtml5 />, color: "#e34c26", title: "HTML5" },
+        { icon: <FaCss3Alt />, color: "#264de4", title: "CSS3" },
+        { icon: <FaJs />, color: "#f0db4f", title: "JavaScript" },
+        { icon: <FaBootstrap />, color: "#563d7c", title: "Bootstrap CSS" },
+        { icon: <SiTailwindcss />, color: "#38bdf8", title: "Tailwind CSS" },
+        { icon: <FaReact />, color: "#61dafb", title: "React.js" },
+        { icon: <SiNextdotjs />, color: "#ffffff", title: "Next.js" },
+        { icon: <FaLaravel />, color: "#ff2d20", title: "Laravel" },
+        { icon: <FaWordpress />, color: "#21759b", title: "WordPress" },
+        { icon: <SiPhp />, color: "#777bb4", title: "PHP" }, 
+        { icon: <FaNodeJs />, color: "#6db33f", title: "Node.js" },
     ];
 
     return (
@@ -37,11 +43,16 @@ const Features = () => {
                             data-aos="fade-up"
                             data-aos-delay={(index + 1) * 100}
                         >
-                            <div className="features-item">
-                                <i
-                                    className={`bi ${feature.icon}`}
-                                    style={{ color: feature.color }}
-                                ></i>
+                            <div className="features-item flex-direction-column text-center gap-2">
+                                <div
+                                    className="pr-2"
+                                    style={{
+                                        fontSize: "1.5rem",
+                                        color: feature.color,
+                                    }}
+                                >
+                                    {feature.icon}
+                                </div>
                                 <h3>
                                     <a href="#" className="stretched-link">
                                         {feature.title}

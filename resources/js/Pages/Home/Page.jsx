@@ -1,4 +1,5 @@
 import Layout from "@/Layouts/Layout";
+import { ReactTyped } from "react-typed";
 const Home = () => {
     return (
         <Layout>
@@ -10,16 +11,22 @@ const Home = () => {
                     data-aos="zoom-out"
                     data-aos-delay="100"
                 >
-                    <h2>Emily Jones</h2>
+                    <h2>Amir Khan</h2>
                     <p>
-                        I'm
-                        <span
-                            className="typed"
-                            data-typed-items="Designer, Developer, Freelancer, Photographer"
-                        >
-                            Photographer
+                        I'm{" "}
+                        <span>
+                            <ReactTyped
+                                strings={[
+                                    "Freelancer",
+                                    "Wordpress Developer",
+                                    "Laravel Developer",
+                                ]}
+                                typeSpeed={70}
+                                backSpeed={30}
+                                backDelay={1500}
+                                loop
+                            />
                         </span>
-                        <span className="typed-cursor typed-cursor--blink"></span>
                     </p>
                     <div className="social-links">
                         <a href="#">

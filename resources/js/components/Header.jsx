@@ -10,8 +10,8 @@ export const Header = () => {
         >
             <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
                 <Link href="/" className="logo d-flex align-items-center">
-                    <img src="assets/img/logo.png" alt="" />
-                    <h1 className="sitename">Personal</h1>
+                    {/* <img src="assets/img/logo.png" alt="" /> */}
+                    <h1 className="sitename">Amir.IN</h1>
                 </Link>
 
                 <nav id="navmenu" className="navmenu">

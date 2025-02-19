@@ -47,7 +47,7 @@ const Services = () => {
                             >
                                 <div className="service-item position-relative">
                                     <div className="icon">
-                                        <i className={service.icon}></i>
+                                        <service.icon size={30} />
                                     </div>
                                     <Link
                                         href={service.link}

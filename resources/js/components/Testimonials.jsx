@@ -1,9 +1,8 @@
-import testimonialsData from "@/lib/testimonials";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-const Testimonials = () => {
+const Testimonials = ({ testimonials }) => {
     return (
         <section id="testimonials" className="testimonials section">
             <div className="container section-title" data-aos="fade-up">
@@ -22,24 +21,25 @@ const Testimonials = () => {
                     pagination={{ clickable: true }}
                     autoplay={{ delay: 5000, disableOnInteraction: false }}
                 >
-                    {testimonialsData.map((testimonial, index) => (
-                        <SwiperSlide key={index}>
-                            <div className="testimonial-item">
-                                <p>
-                                    <i className="bi bi-quote quote-icon-left"></i>
-                                    <span>{testimonial.text}</span>
-                                    <i className="bi bi-quote quote-icon-right"></i>
-                                </p>
-                                <img
-                                    src={testimonial.img}
-                                    className="testimonial-img"
-                                    alt={testimonial.name}
-                                />
-                                <h3>{testimonial.name}</h3>
-                                <h4>{testimonial.role}</h4>
-                            </div>
-                        </SwiperSlide>
-                    ))}
+                    {testimonials &&
+                        testimonials.map((testimonial, index) => (
+                            <SwiperSlide key={index}>
+                                <div className="testimonial-item">
+                                    <p>
+                                        <i className="bi bi-quote quote-icon-left"></i>
+                                        <span>{testimonial.text}</span>
+                                        <i className="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                    <img
+                                        src={`storage/${testimonial.img}`}
+                                        className="testimonial-img"
+                                        alt={testimonial.name}
+                                    />
+                                    <h3>{testimonial.name}</h3>
+                                    <h4>{testimonial.role}</h4>
+                                </div>
+                            </SwiperSlide>
+                        ))}
                 </Swiper>
             </div>
         </section>

@@ -3,7 +3,9 @@ import Skills from "@/components/Skills";
 import Stats from "@/components/Stats";
 import Testimonials from "@/components/Testimonials";
 import Layout from "@/Layouts/Layout";
+import { usePage } from "@inertiajs/react";
 const About = () => {
+    const { features, testimonials } = usePage().props;
     return (
         <Layout>
             <div className="page-title" data-aos="fade">
@@ -122,8 +124,8 @@ const About = () => {
             </section>
             <Stats />
             <Skills />
-            <Features />
-            <Testimonials />
+            <Features features={features} />
+            <Testimonials testimonials={testimonials} />
         </Layout>
     );
 };

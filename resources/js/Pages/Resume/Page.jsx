@@ -10,12 +10,13 @@ const Resume = () => {
                             <div className="col-lg-8">
                                 <h1>Resume</h1>
                                 <p className="mb-0">
-                                    Odio et unde deleniti. Deserunt numquam
-                                    exercitationem. Officiis quo odio sint
-                                    voluptas consequatur ut a odio voluptatem.
-                                    Sit dolorum debitis veritatis natus dolores.
-                                    Quasi ratione sint. Sit quaerat ipsum
-                                    dolorem.
+                                    I am a dedicated Full Stack Developer with a
+                                    strong background in modern web
+                                    technologies. From dynamic WordPress
+                                    websites to complex Laravel applications and
+                                    responsive React/Next.js frontends, I build
+                                    reliable and performance-optimized digital
+                                    solutions tailored to client needs.
                                 </p>
                             </div>
                         </div>
@@ -44,63 +45,73 @@ const Resume = () => {
                             <h3 className="resume-title">Sumary</h3>
 
                             <div className="resume-item pb-0">
-                                <h4>Brandon Johnson</h4>
+                                <h4>Amir Khan</h4>
                                 <p>
                                     <em>
-                                        Innovative and deadline-driven Graphic
-                                        Designer with 3+ years of experience
-                                        designing and developing user-centered
-                                        digital/print marketing material from
-                                        initial concept to final, polished
-                                        deliverable.
+                                        I am a results-oriented Full Stack
+                                        Developer with a strong foundation in
+                                        both frontend and backend technologies.
+                                        I specialize in building scalable,
+                                        secure, and user-focused web
+                                        applications using tools like WordPress,
+                                        Laravel, React.js, Next.js, and Tailwind
+                                        CSS. With years of experience delivering
+                                        high-quality digital solutions, I’m
+                                        passionate about turning ideas into
+                                        fully functional products.
                                     </em>
                                 </p>
-                                <ul>
-                                    <li>Portland par 127,Orlando, FL</li>
-                                    <li>(123) 456-7891</li>
-                                    <li>alice.barkley@example.com</li>
-                                </ul>
                             </div>
 
                             <h3 className="resume-title">Education</h3>
                             <div className="resume-item">
                                 <h4>
-                                    Master of Fine Arts &amp; Graphic Design
+                                    B.Tech in Computer Science &amp; Engineering
                                 </h4>
-                                <h5>2015 - 2016</h5>
+                                <h5>2014 - 2016</h5>
                                 <p>
                                     <em>
-                                        Rochester Institute of Technology,
-                                        Rochester, NY
+                                        Techno India College of Technology,
+                                        Kolkata,West Bengal ,IN
                                     </em>
                                 </p>
-                                <p>
-                                    Qui deserunt veniam. Et sed aliquam labore
-                                    tempore sed quisquam iusto autem sit. Ea
-                                    vero voluptatum qui ut dignissimos deleniti
-                                    nerada porti sand markend
-                                </p>
+                                <ul>
+                                    <li>
+                                        {" "}
+                                        Gained a strong foundation in computer
+                                        science fundamentals, software
+                                        development, data structures, and web
+                                        technologies. Completed multiple
+                                        academic projects focused on real-world
+                                        applications and collaborative
+                                        development.
+                                    </li>
+                                </ul>
                             </div>
 
                             <div className="resume-item">
                                 <h4>
-                                    Bachelor of Fine Arts &amp; Graphic Design
+                                    Diploma in Computer Science &amp; Technology
                                 </h4>
-                                <h5>2010 - 2014</h5>
+                                <h5>2012 - 2014</h5>
                                 <p>
                                     <em>
-                                        Rochester Institute of Technology,
-                                        Rochester, NY
+                                        Global Institute of Science &
+                                        Technology, Haldia ,West Bengal,IN
                                     </em>
                                 </p>
-                                <p>
-                                    Quia nobis sequi est occaecati aut.
-                                    Repudiandae et iusto quae reiciendis et quis
-                                    Eius vel ratione eius unde vitae rerum
-                                    voluptates asperiores voluptatem Earum
-                                    molestiae consequatur neque etlon sader mart
-                                    dila
-                                </p>
+                                <ul>
+                                    <li>
+                                        {" "}
+                                        Completed a diploma program focused on
+                                        core areas of computer science,
+                                        including programming, database
+                                        management, and network fundamentals.
+                                        Developed practical skills through
+                                        hands-on lab sessions and team-based
+                                        projects.
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
@@ -113,61 +124,66 @@ const Resume = () => {
                                 Professional Experience
                             </h3>
                             <div className="resume-item">
-                                <h4>Senior graphic design specialist</h4>
-                                <h5>2019 - Present</h5>
+                                <h4>Laravel Ecommerce Developer</h4>
+                                <h5>2024 - Present</h5>
                                 <p>
-                                    <em>Experion, New York, NY </em>
+                                    <em>Freelance / Remote</em>
                                 </p>
                                 <ul>
                                     <li>
-                                        Lead in the design, development, and
-                                        implementation of the graphic, layout,
-                                        and production communication materials
+                                        Laravel eCommerce Project: Led the
+                                        development of a custom eCommerce
+                                        platform using Laravel. Integrated
+                                        secure payment gateways, product
+                                        management features, and a dynamic admin
+                                        dashboard. Focused on performance
+                                        optimization and responsive design for
+                                        both desktop and mobile users.
                                     </li>
                                     <li>
-                                        Delegate tasks to the 7 members of the
-                                        design team and provide counsel on all
-                                        aspects of the project.{" "}
+                                        Designed scalable database architecture
+                                        and implemented RESTful APIs to support
+                                        seamless user interactions and backend
+                                        operations.
                                     </li>
                                     <li>
-                                        Supervise the assessment of all graphic
-                                        materials in order to ensure quality and
-                                        accuracy of the design
-                                    </li>
-                                    <li>
-                                        Oversee the efficient use of production
-                                        project budgets ranging from $2,000 -
-                                        $25,000
+                                        Collaborated with UI/UX designers to
+                                        deliver a smooth, modern shopping
+                                        experience. Successfully deployed and
+                                        maintained the platform for ongoing
+                                        client use.
                                     </li>
                                 </ul>
                             </div>
 
                             <div className="resume-item">
-                                <h4>Graphic design specialist</h4>
-                                <h5>2017 - 2018</h5>
+                                <h4>Wordpress Developer</h4>
+                                <h5>2022 - 2024</h5>
                                 <p>
-                                    <em>
-                                        Stepping Stone Advertising, New York, NY
-                                    </em>
+                                    <em>Freelance / Remote</em>
                                 </p>
                                 <ul>
                                     <li>
-                                        Developed numerous marketing programs
-                                        (logos, brochures,infographics,
-                                        presentations, and advertisements).
+                                        Created a fully custom WordPress website
+                                        from scratch, including theme and plugin
+                                        development tailored to client
+                                        specifications.
                                     </li>
                                     <li>
-                                        Managed up to 5 projects or tasks at a
-                                        given time while under pressure
+                                        Built reusable components and
+                                        implemented custom fields, post types,
+                                        and admin panels for easy content
+                                        management.
                                     </li>
                                     <li>
-                                        Recommended and consulted with clients
-                                        on the most appropriate graphic design
+                                        Focused on SEO optimization, fast load
+                                        times, and cross-browser compatibility.
                                     </li>
                                     <li>
-                                        Created 4+ design presentations and
-                                        proposals a month for clients and
-                                        account managers
+                                        Provided ongoing support and
+                                        documentation, enabling the client to
+                                        manage their site independently
+                                        post-launch.
                                     </li>
                                 </ul>
                             </div>

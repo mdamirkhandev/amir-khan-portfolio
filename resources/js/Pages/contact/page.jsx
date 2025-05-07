@@ -1,5 +1,6 @@
 import Layout from "@/Layouts/Layout";
-
+import { Link } from "@inertiajs/react";
+import { FaSquareUpwork } from "react-icons/fa6";
 const Contact = () => {
     return (
         <Layout>
@@ -10,12 +11,11 @@ const Contact = () => {
                             <div class="col-lg-8">
                                 <h1>Contact</h1>
                                 <p class="mb-0">
-                                    Odio et unde deleniti. Deserunt numquam
-                                    exercitationem. Officiis quo odio sint
-                                    voluptas consequatur ut a odio voluptatem.
-                                    Sit dolorum debitis veritatis natus dolores.
-                                    Quasi ratione sint. Sit quaerat ipsum
-                                    dolorem.
+                                    Have a project in mind or need a reliable
+                                    developer? Let’s connect. I’m available for
+                                    freelance work, collaborations, or full-time
+                                    opportunities. Reach out anytime to discuss
+                                    your ideas or get a quote.
                                 </p>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ const Contact = () => {
                                 <i class="icon bi bi-geo-alt flex-shrink-0"></i>
                                 <div>
                                     <h3>Address</h3>
-                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                    <p>City Home, Surat, Gujarat, INDIA</p>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,10 @@ const Contact = () => {
                                 <i class="icon bi bi-telephone flex-shrink-0"></i>
                                 <div>
                                     <h3>Call Me</h3>
-                                    <p>+1 5589 55488 55</p>
+
+                                    <Link href="tel:+91 886-600-8738">
+                                        +91 886-600-8738
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -76,8 +79,10 @@ const Contact = () => {
                             >
                                 <i class="icon bi bi-envelope flex-shrink-0"></i>
                                 <div>
-                                    <h3>Email Us</h3>
-                                    <p>info@example.com</p>
+                                    <h3>Email Me</h3>
+                                    <Link href="mailto:info@amir.in">
+                                        info@amir.in
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -92,21 +97,34 @@ const Contact = () => {
                                 <div>
                                     <h3>Social Profiles</h3>
                                     <div class="social-links">
-                                        <a href="#">
-                                            <i class="bi bi-twitter-x"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="bi bi-facebook"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="bi bi-instagram"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="bi bi-skype"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="bi bi-linkedin"></i>
-                                        </a>
+                                        <Link
+                                            href="https://twitter.com"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <i className="bi bi-twitter-x"></i>
+                                        </Link>
+                                        <Link
+                                            href="https://www.instagram.com"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <i className="bi bi-instagram"></i>
+                                        </Link>
+                                        <Link
+                                            href="https://www.upwork.com"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <FaSquareUpwork size={24} />
+                                        </Link>
+                                        <Link
+                                            href="https://www.linkedin.com"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <i className="bi bi-linkedin"></i>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

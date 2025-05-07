@@ -3,7 +3,7 @@ import Skills from "@/components/Skills";
 import Stats from "@/components/Stats";
 import Testimonials from "@/components/Testimonials";
 import Layout from "@/Layouts/Layout";
-import { usePage } from "@inertiajs/react";
+import { Link, usePage } from "@inertiajs/react";
 const About = () => {
     const { features, testimonials } = usePage().props;
     return (
@@ -15,12 +15,9 @@ const About = () => {
                             <div className="col-lg-8">
                                 <h1>About</h1>
                                 <p className="mb-0">
-                                    Odio et unde deleniti. Deserunt numquam
-                                    exercitationem. Officiis quo odio sint
-                                    voluptas consequatur ut a odio voluptatem.
-                                    Sit dolorum debitis veritatis natus dolores.
-                                    Quasi ratione sint. Sit quaerat ipsum
-                                    dolorem.
+                                    Full Stack Developer skilled in WordPress,
+                                    Laravel & Next.js. I create fast, reliable,
+                                    and custom web solutions.
                                 </p>
                             </div>
                         </div>
@@ -53,11 +50,17 @@ const About = () => {
                             />
                         </div>
                         <div className="col-lg-8 content">
-                            <h2>UI/UX Designer &amp; Web Developer.</h2>
+                            <h2>Full Stack Web Developer.</h2>
                             <p className="fst-italic py-3">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
+                                I am a results-oriented Full Stack Developer
+                                with a strong foundation in both frontend and
+                                backend technologies. I specialize in building
+                                scalable, secure, and user-focused web
+                                applications using tools like WordPress,
+                                Laravel, React.js, Next.js, and Tailwind CSS.
+                                With years of experience delivering high-quality
+                                digital solutions, I’m passionate about turning
+                                ideas into fully functional products.
                             </p>
                             <div className="row">
                                 <div className="col-lg-6">
@@ -65,22 +68,26 @@ const About = () => {
                                         <li>
                                             <i className="bi bi-chevron-right"></i>{" "}
                                             <strong>Birthday:</strong>{" "}
-                                            <span>1 May 1995</span>
+                                            <span>10 Feb 1992</span>
                                         </li>
                                         <li>
                                             <i className="bi bi-chevron-right"></i>{" "}
                                             <strong>Website:</strong>{" "}
-                                            <span>www.example.com</span>
+                                            <Link href="https://www.amir.in">
+                                                www.amir.in
+                                            </Link>
                                         </li>
                                         <li>
                                             <i className="bi bi-chevron-right"></i>{" "}
                                             <strong>Phone:</strong>{" "}
-                                            <span>+123 456 7890</span>
+                                            <Link href="tel:+91 886-6600-8738">
+                                                +91 886-6600-8738
+                                            </Link>
                                         </li>
                                         <li>
                                             <i className="bi bi-chevron-right"></i>{" "}
                                             <strong>City:</strong>{" "}
-                                            <span>New York, USA</span>
+                                            <span>Surat, Gujarat , India</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -94,29 +101,33 @@ const About = () => {
                                         <li>
                                             <i className="bi bi-chevron-right"></i>{" "}
                                             <strong>Degree:</strong>{" "}
-                                            <span>Master</span>
+                                            <span>B.Tech in CSE</span>
                                         </li>
                                         <li>
                                             <i className="bi bi-chevron-right"></i>{" "}
                                             <strong>Email:</strong>{" "}
-                                            <span>email@example.com</span>
+                                            <Link href="mailto:info@amir.in">
+                                                info@amir.in
+                                            </Link>
                                         </li>
                                         <li>
                                             <i className="bi bi-chevron-right"></i>{" "}
                                             <strong>Freelance:</strong>{" "}
-                                            <span>Available</span>
+                                            <span className="bg-success rounded px-1">
+                                                Available
+                                            </span>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <p className="py-3">
-                                Officiis eligendi itaque labore et dolorum
-                                mollitia officiis optio vero. Quisquam sunt
-                                adipisci omnis et ut. Nulla accusantium dolor
-                                incidunt officia tempore. Et eius omnis.
-                                Cupiditate ut dicta maxime officiis quidem quia.
-                                Sed et consectetur qui quia repellendus itaque
-                                neque.
+                                I help businesses and startups bring their
+                                digital ideas to life with clean, efficient code
+                                and modern design practices. From building
+                                responsive websites to developing complex
+                                backend systems, I offer end-to-end development
+                                services that focus on performance, SEO, and
+                                user experience.
                             </p>
                         </div>
                     </div>

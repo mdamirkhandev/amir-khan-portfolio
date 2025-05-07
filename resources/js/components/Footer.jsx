@@ -1,38 +1,55 @@
+import { Link } from "@inertiajs/react";
+import { SiUpwork } from "react-icons/si";
 const Footer = () => {
     return (
         <footer id="footer" className="footer dark-background">
             <div className="container">
-                <h3 className="sitename">Personal</h3>
+                <h3 className="sitename">Amir.IN</h3>
                 <p>
-                    Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis
-                    magni eligendi fuga maxime saepe commodi placeat.
+                    Experienced full stack developer skilled in{" "}
+                    <Link href="https://wordpress.com">WordPress</Link> ,
+                    <Link href="https://laravel.com"> Laravel</Link> &{" "}
+                    <Link href="https://reactjs.org">NextJs</Link>. I build
+                    fast, user-friendly web solutions tailored to your business
+                    needs.
                 </p>
                 <div className="social-links d-flex justify-content-center">
-                    <a href="">
+                    <Link
+                        href="https://twitter.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <i className="bi bi-twitter-x"></i>
-                    </a>
-                    <a href="">
-                        <i className="bi bi-facebook"></i>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Link
+                        href="https://www.instagram.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <i className="bi bi-instagram"></i>
-                    </a>
-                    <a href="">
-                        <i className="bi bi-skype"></i>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Link
+                        href="https://www.upwork.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <SiUpwork />
+                    </Link>
+                    <Link
+                        href="https://www.linkedin.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <i className="bi bi-linkedin"></i>
-                    </a>
+                    </Link>
                 </div>
                 <div className="container">
                     <div className="copyright">
                         <span>Copyright</span>
-                        <strong className="px-1 sitename">Personal</strong>
+                        <strong className="px-1 sitename">
+                            <Link href="/">Amir.IN</Link>
+                        </strong>
                         <span>All Rights Reserved</span>
-                    </div>
-                    <div className="credits">
-                        Designed by
-                        <a href="https://bootstrapmade.com/">BootstrapMade</a>
                     </div>
                 </div>
             </div>

@@ -23,12 +23,13 @@ const Portfolio = () => {
                             <div className="col-lg-8">
                                 <h1>Portfolio</h1>
                                 <p className="mb-0">
-                                    Odio et unde deleniti. Deserunt numquam
-                                    exercitationem. Officiis quo odio sint
-                                    voluptas consequatur ut a odio voluptatem.
-                                    Sit dolorum debitis veritatis natus dolores.
-                                    Quasi ratione sint. Sit quaerat ipsum
-                                    dolorem.
+                                    A showcase of my work across various
+                                    technologies. From custom WordPress themes
+                                    to full-featured Laravel apps and modern
+                                    React/Next.js interfaces, each project
+                                    reflects clean code, performance, and
+                                    user-first design. Explore examples that
+                                    highlight versatility and results.
                                 </p>
                             </div>
                         </div>
